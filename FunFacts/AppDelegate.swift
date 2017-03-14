@@ -1,3 +1,5 @@
+//  # FunFactApp
+//  App shows you fun facts in different color schemes
 //
 //  AppDelegate.swift
 //  FunFacts

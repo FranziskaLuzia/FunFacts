@@ -1,3 +1,6 @@
+//  # FunFactApp
+//  App shows you fun facts in different color schemes
+//
 //
 //  ViewController.swift
 //  FunFacts
@@ -9,10 +12,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var FunFactLabel: UILabel!
+    
+    @IBOutlet weak var FunFactButton: UIButton!
+    
+    let factProvider = FactProvider()
+    let colorProvider = BackgroundColorProvider()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        FunFactLabel.text = factProvider.randomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +30,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showNewFact() {
+        
+        FunFactLabel.text = factProvider.randomFact()
+        let randomColor = colorProvider.randomColor()
+        view.backgroundColor = randomColor
+        FunFactButton.tintColor = randomColor
+    }
 
 }
 

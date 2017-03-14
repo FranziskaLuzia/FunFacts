@@ -12,6 +12,8 @@
 		67FB7D891E2AADBA007DC14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FB7D871E2AADBA007DC14C /* Main.storyboard */; };
 		67FB7D8B1E2AADBA007DC14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FB7D8A1E2AADBA007DC14C /* Assets.xcassets */; };
 		67FB7D8E1E2AADBA007DC14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FB7D8C1E2AADBA007DC14C /* LaunchScreen.storyboard */; };
+		67FB7D961E2BDBF4007DC14C /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FB7D951E2BDBF4007DC14C /* FactProvider.swift */; };
+		67FB7D981E2C32E4007DC14C /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FB7D971E2C32E4007DC14C /* BackgroundColorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		67FB7D8A1E2AADBA007DC14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67FB7D8D1E2AADBA007DC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67FB7D8F1E2AADBA007DC14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67FB7D951E2BDBF4007DC14C /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
+		67FB7D971E2C32E4007DC14C /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				67FB7D831E2AADBA007DC14C /* AppDelegate.swift */,
 				67FB7D851E2AADBA007DC14C /* ViewController.swift */,
+				67FB7D951E2BDBF4007DC14C /* FactProvider.swift */,
 				67FB7D871E2AADBA007DC14C /* Main.storyboard */,
 				67FB7D8A1E2AADBA007DC14C /* Assets.xcassets */,
 				67FB7D8C1E2AADBA007DC14C /* LaunchScreen.storyboard */,
 				67FB7D8F1E2AADBA007DC14C /* Info.plist */,
+				67FB7D971E2C32E4007DC14C /* BackgroundColorProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				67FB7D861E2AADBA007DC14C /* ViewController.swift in Sources */,
 				67FB7D841E2AADBA007DC14C /* AppDelegate.swift in Sources */,
+				67FB7D981E2C32E4007DC14C /* BackgroundColorProvider.swift in Sources */,
+				67FB7D961E2BDBF4007DC14C /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
